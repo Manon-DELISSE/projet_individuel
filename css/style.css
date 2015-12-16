@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*background-color: #FFDFF8;*/
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: Signarita Anne;
+  font-size: 200px;
+  font-weight: lighter;
+  margin-top:-30px;
+}
+
+@font-face {
+   font-family: "Signarita Anne";
+   src: url('signarita_anne/SignaritaAnneDemo.ttf');
+ }
+
+.img_bd {
+  height:160px;
+  width:175px;
+  /*background-color: yellow;*/
+  margin-left:175px;
+  border-top-right-radius: 38px;
+  border-bottom-right-radius: 38px;
+  background-image: url("img/images2.jpeg");
+}
+
+.bd {
+  height: 160px;
+  width: 350px;
+  border-radius:45px;
+  background-color: #2DC800;
+  margin-left: 90px;
+  margin-top:-140px;
+  float: left;
+  border: 5px solid black;
+}
+
+.bd:hover {
+  border: 5px solid #B3FF99;
+}
+
+.bd p {
+  margin-left:67px;
+  margin-top:-95px;
+  color:white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size:30px;
+}
+
+hr {
+ background-color:white;
+ width:5px;
+ height:160px;
+ margin-top: -147px;
+}
+
+.bd hr {
+   margin-top: -128px;
+}
+
+.manga {
+  height: 160px;
+  width: 350px;
+  border-radius:45px;
+  background-color: blue;
+  margin-top:20px;
+  margin-left:62px;
+  float:left;
+}
+
+.manga p {
+  margin-left:34px;
+  margin-top:65px;
+  color:white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size:25px;
+}
+
+.manga hr {
+margin-top: -120px;
+}
+
+.roman {
+  height: 160px;
+  width: 350px;
+  border-radius:45px;
+  float: left;
+  background-color: blue;
+  margin-top: -140px;
+  margin-left: 55px;
+  }
+
+.roman p {
+  margin-left:34px;
+  margin-top:65px;
+  color:white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size:25px;
+}
+
+.roman hr {
+     margin-top: -120px;
+  }
