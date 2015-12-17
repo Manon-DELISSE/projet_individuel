@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  /*background-color: #FFDFF8;*/
+  background: #eae9e9 url("img/bg.png") repeat scroll 0% 0%;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
   background-image: url("img/images2.jpeg");
 }
 
-.bd {
+#bd {
   height: 160px;
   width: 350px;
   border-radius:45px;
@@ -39,72 +39,118 @@ h1 {
   border: 5px solid black;
 }
 
-.bd:hover {
+#bd:hover {
   border: 5px solid #B3FF99;
 }
 
-.bd p {
+#bd p {
   margin-left:67px;
   margin-top:-95px;
-  color:white;
+  color:black;
   text-transform: uppercase;
   font-weight: bolder;
   font-size:30px;
 }
 
-hr {
- background-color:white;
- width:5px;
- height:160px;
- margin-top: -147px;
-}
-
-.bd hr {
+#bd hr {
    margin-top: -128px;
 }
 
-.manga {
+#bd_js {
+  /*background-color:  black;*/
+  height: 170px;
+  width:350px;
+  /*border-radius: 45px;*/
+  margin-top:80px;
+  color: white;
+  font-weight: bold;
+}
+
+.img_manga {
+  height:160px;
+  width:175px;
+  /*background-color: green;*/
+  margin-left: 175px;
+  border-top-right-radius: 38px;
+  border-bottom-right-radius: 38px;
+  background-image: url("img/luffy2.jpeg");
+}
+
+#manga {
   height: 160px;
   width: 350px;
   border-radius:45px;
-  background-color: blue;
+  background-color: #62A9FF;
   margin-top:20px;
-  margin-left:62px;
+  margin-left:56px;
   float:left;
+  border:5px solid black;
 }
 
-.manga p {
+#manga:hover {
+  border: 5px solid #D0E6FF;
+}
+
+#manga p {
   margin-left:34px;
-  margin-top:65px;
-  color:white;
+  margin-top:-92px;
+  color:black;
   text-transform: uppercase;
   font-weight: bolder;
   font-size:25px;
 }
 
-.manga hr {
-margin-top: -120px;
+#manga_js {
+  height: 170px;
+  width:350px;
+  /*background-color: black;*/
+  margin-top:-300px;
+  color: white;
+  font-weight: bold;
 }
 
-.roman {
+.img_roman {
+  height:160px;
+  width:175px;
+  /*background-color: green;*/
+  margin-left: 175px;
+  border-top-right-radius: 38px;
+  border-bottom-right-radius: 38px;
+  background-image: url("img/hp4.jpeg");
+}
+
+#roman {
   height: 160px;
   width: 350px;
   border-radius:45px;
   float: left;
-  background-color: blue;
+  background-color: #DC143C;
   margin-top: -140px;
   margin-left: 55px;
+  border: 5px solid black;
   }
 
-.roman p {
+#roman:hover {
+  border: 5px solid #FFC8F2;
+}
+
+#roman p {
   margin-left:34px;
-  margin-top:65px;
-  color:white;
+  margin-top:-92px;
+  color:black;
   text-transform: uppercase;
   font-weight: bolder;
   font-size:25px;
 }
 
+#roman_js {
+  /*background-color: black;*/
+  height: 170px;
+  width:350px;
+  margin-top:80px;
+  color: white;
+  font-weight: bold;
+}
 .roman hr {
      margin-top: -120px;
   }
