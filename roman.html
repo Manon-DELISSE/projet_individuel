@@ -3,25 +3,33 @@
 <head>
   <meta charset="utf-8">
   <link type="text/css" rel="stylesheet" href="css/style.css" />
+  <script type="text/javascript" src="js/script.js"></script>
   <title>Catégorie Roman</title>
+  <link rel="shortcut icon" href="css/img/plume1.jpeg" type="image/x-icon">
 </head>
 <body>
   <h1>Book s Summary</h1>
   <div class="bandeau_roman">
     <p>Roman</p>
   </div>
-  <div class="liste_roman">
-    <div class="hp">
+
+    <div id="eragon" class="deco" onmouseover="resumeEragon();" onmouseout="textNone();">
       <img src="css/img/eragon.jpg">
       <p>Eragon</p>
     </div>
-    <div class="hp">
-      <img src="css/img/index.jpeg">      
+    <div id="hp" class="deco" onmouseover="resumeHp();" onmouseout="textNone();">
+      <img src="css/img/index.jpeg">
     </div>
-    <div class="hp">
+    <div id="lce" class="deco" onmouseover="resumeLce();" onmouseout="textNone();">
       <img src="css/img/t1.jpg">
     </div>
-
-  </div>
+    <div id="appar">
+      <div id="book" class="date_book">
+      </div>
+      <div id="summary">
+      </div>
+      <div id="date" class="date_book">
+      </div>
+      </div>
 </body>
 </html>
